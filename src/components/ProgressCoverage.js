@@ -93,11 +93,11 @@ class ProgressCoverage extends React.Component {
     console.log(map)
     while (c-- > 0) {
       let currentMonth = date.getMonth();
-      sceData.unshift(map[currentMonth].data.sce.total);
-      csData.unshift(map[currentMonth].data.cs.total);
-      trendsData.unshift(map[currentMonth].data.trends.total);
-      uttData.unshift(map[currentMonth].data.utt.total);
-      mmData.unshift(map[currentMonth].data.mm.total);
+      sceData.unshift(map[currentMonth].data.sce.automated);
+      csData.unshift(map[currentMonth].data.cs.automated);
+      trendsData.unshift(map[currentMonth].data.trends.automated);
+      uttData.unshift(map[currentMonth].data.utt.automated);
+      mmData.unshift(map[currentMonth].data.mm.automated);
       date.setMonth(currentMonth - 1);
     }
     this.setState({data: {
