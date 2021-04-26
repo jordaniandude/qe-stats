@@ -2,7 +2,7 @@
   "name": "qe-stats",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jordaniandude.github.io/qe-stats",
+  "homepage": "https://jordaniandude.com/qe-stats",
   "dependencies": {
     "axios": "^0.21.1",
     "chart.js": "^3.1.1",

@@ -6,7 +6,7 @@ import App from "./components/App";
 import { Fragment } from "react";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Fragment>
       <Switch>
         <Route exact path="/" component={App} />
